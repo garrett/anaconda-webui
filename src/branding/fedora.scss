@@ -1,0 +1,101 @@
+body {
+}
+
+:root {
+  --pf-v5-global--palette--blue-50: #e4f0f9;
+	--pf-v5-global--palette--blue-100: #d2e7f5;
+	--pf-v5-global--palette--blue-200: #9dcaea;
+	--pf-v5-global--palette--blue-300: #51a2da;
+	--pf-v5-global--palette--blue-400: #2472a8;
+	--pf-v5-global--palette--blue-500: #16486a;
+	--pf-v5-global--palette--blue-600: #0e2e44;
+	--pf-v5-global--palette--blue-700: #06141d;
+
+  --pf-v5-global--primary-color--100: #007fc7;
+  --pf-v5-global--primary-color--200: #004f7d;
+  --pf-v5-global--link--Color: var(--pf-v5-global--primary-color--100);
+	--pf-v5-global--link--Color--hover: var(--pf-v5-global--primary-color--200);
+
+	/* FIXME: Figure out the accessory link colors */
+	--pf-v5-global--link--Color--light: #51a2da;
+	--pf-v5-global--link--Color--light--hover: #9dcaea;
+	--pf-v5-global--link--Color--dark: #2472a8;
+	--pf-v5-global--link--Color--dark--hover: #004080;
+	--pf-v5-global--link--Color--visited: #40199a;
+
+	--pf-v5-global--active-color--100: var(--pf-v5-global--palette--blue-300);
+  --pf-v5-global--active-color--200: var(--pf-v5-global--palette--blue-100);
+  /* FIXME: Figure out the active 300 */
+  --pf-v5-global--active-color--300: #2b9af3;
+  --pf-v5-global--active-color--400: var(--pf-v5-global--palette--blue-200);
+
+  /* --pf-v5-global--Color--light-100: red; */
+
+  /* --pf-v5-global--primary-color--light-100: purple;
+	--pf-v5-global--primary-color--dark-100: lightgreen; */
+  /*
+  --pf-v5-global--primary-color--light-100: #73bcf7;
+	--pf-v5-global--primary-color--dark-100: #2472a8;
+
+	--pf-v5-global--palette--blue-50: #e7f1fa;
+	--pf-v5-global--palette--blue-100: #bee1f4;
+	--pf-v5-global--palette--blue-200: #73bcf7;
+	--pf-v5-global--palette--blue-300: #2b9af3;
+	--pf-v5-global--palette--blue-400: #2472a8;
+	--pf-v5-global--palette--blue-500: #004080;
+	--pf-v5-global--palette--blue-600: #002952;
+	--pf-v5-global--palette--blue-700: #001223;
+	--pf-v5-global--palette--light-blue-100: #beedf9;
+	--pf-v5-global--palette--light-blue-200: #7cdbf3;
+	--pf-v5-global--palette--light-blue-300: #35caed;
+	--pf-v5-global--palette--light-blue-400: #00b9e4;
+	--pf-v5-global--palette--light-blue-500: #008bad;
+	--pf-v5-global--palette--light-blue-600: #005c73;
+	--pf-v5-global--palette--light-blue-700: #002d39;
+	--pf-v5-global--palette--light-green-100: #e4f5bc;
+	--pf-v5-global--palette--light-green-200: #c8eb79;
+	--pf-v5-global--palette--light-green-300: #ace12e;
+	--pf-v5-global--palette--light-green-400: #92d400;
+	--pf-v5-global--palette--light-green-500: #6ca100;
+	--pf-v5-global--palette--light-green-600: #486b00;
+	--pf-v5-global--palette--light-green-700: #253600;
+	--pf-v5-global--active-color--100: #2472a8;
+	--pf-v5-global--active-color--200: #bee1f4;
+	--pf-v5-global--active-color--300: #2b9af3;
+	--pf-v5-global--active-color--400: #73bcf7;
+	--pf-v5-global--primary-color--100: #2472a8;
+	--pf-v5-global--primary-color--200: #004080;
+	--pf-v5-global--primary-color--light-100: #73bcf7;
+	--pf-v5-global--primary-color--dark-100: #2472a8;
+	--pf-v5-global--secondary-color--100: #6a6e73;
+	--pf-v5-global--link--Color: #2472a8;
+	--pf-v5-global--link--Color--hover: #004080;
+	--pf-v5-global--link--Color--light: #2b9af3;
+	--pf-v5-global--link--Color--light--hover: #73bcf7;
+	--pf-v5-global--link--Color--dark: #2472a8;
+	--pf-v5-global--link--Color--dark--hover: #004080;
+	--pf-v5-global--link--Color--visited: #40199a;
+	--pf-v5-global--link--TextDecoration: none;
+	--pf-v5-global--link--TextDecoration--hover: underline;
+	*/
+}
+
+.pf-v5-c-page__main-section {
+  --_text: white;
+  --_text-hover: gray;
+  background: #51a2da;
+
+  .pf-v5-c-content {
+    --pf-v5-c-content--Color: var(--_text);
+  }
+}
+
+#toggle-kebab {
+  path {
+    fill: var(--_text);
+  }
+
+  &:hover path {
+    fill: color-mix(in lch, var(--_text) 75%, transparent);
+  }
+}
